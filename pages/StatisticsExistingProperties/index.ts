@@ -1,0 +1,1 @@
+export { StatisticsExistingPropertiesPage } from './StatisticsExistingProperties';

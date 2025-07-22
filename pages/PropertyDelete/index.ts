@@ -1,0 +1,1 @@
+export { PropertyDeletePage } from './PropertyDelete';
