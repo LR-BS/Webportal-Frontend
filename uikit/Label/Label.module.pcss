@@ -1,0 +1,23 @@
+.label {
+  @apply relative flex items-center justify-center rounded-md px-6 py-4;
+
+  &.green {
+    @apply bg-green-500 text-green-500;
+  }
+
+  &.yellow {
+    @apply bg-yellow-500 text-yellow-500;
+  }
+
+  &.red {
+    @apply bg-red-500 text-red-500;
+  }
+
+  & .text {
+    @apply flex items-center justify-center font-bold text-white;
+  }
+
+  & .percentage {
+    @apply mx-2 flex h-full min-w-24 items-center justify-center rounded-full bg-white px-4 text-xl font-extrabold leading-none;
+  }
+}

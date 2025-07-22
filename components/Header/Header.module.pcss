@@ -1,0 +1,27 @@
+.header {
+  @apply sticky top-0 z-2 flex w-full items-center justify-between bg-white px-16 text-black;
+
+  @screen 3xl {
+    @apply px-12;
+  }
+
+  @screen 2xl {
+    @apply px-8;
+  }
+
+  @screen md {
+    @apply px-6;
+  }
+
+  @screen rg {
+    @apply px-4;
+  }
+
+  & .settingsImg {
+    @apply mx-6 w-12;
+  }
+
+  & .authImg {
+    @apply mx-6 w-12;
+  }
+}

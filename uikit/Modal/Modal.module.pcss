@@ -1,0 +1,25 @@
+.modal {
+  @apply fixed
+    left-0
+    top-0
+    z-2
+    mx-auto flex
+    h-screen w-screen
+    flex-col items-center
+    justify-center
+    overflow-hidden
+    p-6;
+
+  & .modalOverlay {
+    @apply absolute
+      bottom-0 left-0 right-0 top-0
+      cursor-pointer bg-gray-100
+      bg-opacity-50;
+  }
+
+  & .modalContent {
+    @apply z-1 flex
+      flex-col
+      overflow-hidden;
+  }
+}

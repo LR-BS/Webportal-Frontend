@@ -1,0 +1,92 @@
+.heading {
+  @apply py-4
+    text-center;
+
+  &3xl {
+    @apply text-5xl
+      font-extrabold;
+
+    @screen sm {
+      @apply text-4xl;
+    }
+
+    @screen xs {
+      @apply text-3xl;
+    }
+  }
+
+  &Main,
+  &2xl {
+    @apply text-4xl
+      font-extrabold;
+
+    @screen sm {
+      @apply text-3xl;
+    }
+
+    @screen xs {
+      @apply text-2xl;
+    }
+  }
+
+  &Xl {
+    @apply text-3xl
+      font-extrabold;
+
+    @screen sm {
+      @apply text-2xl;
+    }
+
+    @screen xs {
+      @apply text-xl;
+    }
+  }
+
+  &Lg {
+    @apply text-2xl;
+
+    @screen sm {
+      @apply text-xl;
+    }
+
+    @screen 2xs {
+      @apply text-lg;
+    }
+  }
+
+  &Md {
+    @apply text-xl;
+
+    @screen md {
+      @apply text-lg;
+    }
+
+    @screen sm {
+      @apply text-base;
+    }
+  }
+
+  &Sm {
+    @apply text-lg;
+
+    @screen md {
+      @apply text-base;
+    }
+
+    @screen sm {
+      @apply text-sm;
+    }
+  }
+
+  &Xs {
+    @apply text-base;
+
+    @screen md {
+      @apply text-sm;
+    }
+
+    @screen sm {
+      @apply text-xs;
+    }
+  }
+}

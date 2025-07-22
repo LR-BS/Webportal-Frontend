@@ -1,0 +1,1 @@
+export { MigrationErrorPage } from './MigrationError';
